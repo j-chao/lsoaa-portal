@@ -37,27 +37,8 @@
                     <a href="../index.html">
                         HOME
                     </a>
-                </li>
                 <li>
-                    <a href="#">Dashboard</a>
-                </li>
-                <li>
-                    <a href="#">Shortcuts</a>
-                </li>
-                <li>
-                    <a href="#">Overview</a>
-                </li>
-                <li>
-                    <a href="#">Events</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
+                    <a href="http://atxscioly.com/index.html">LSOAA homepage</a>
                 </li>
             </ul>
         </div>
@@ -70,42 +51,48 @@
                     <div class="col-lg-12">
                         <h1>Coach Questionnaire</h1>
 							<!--PAGE START-->
-						   <div class="form-group">
+						   <div class="usr">
 							   <label for="usr">Name:</label>
 							   <input type="text" class="form-control" id="usr">
 						   </div>
-						   <div class="form-group">
+						   <div class="email">
 							  <label for="email">E-mail:</label>
 							  <input type="text" class="form-control" id="email">
 						   </div> 
-						   <div class="form-group">
+						   <div class="phone">
 							  <label for="phone">Phone Number:</label>
 							  <input type="text" class="form-control" id="phone">
 						   </div> 
-						   <div class="form-group">
+						   <div class="school_name">
 							  <label for="school">School Name:</label>
 							  <input type="text" class="form-control" id="school">
 						   </div> 
-						   <div class="form-group">
+						   <div class="school_address">
 							  <label for="address">School Address:</label>
 							  <input type="text" class="form-control" id="address">
 						   </div> 
 
                            <div>
-							<label for="Division">School Division:</label>
-							<select class="selectpicker">
-							  <option>Division B</option>
-							  <option>Division C</option>
-							</select>
-                           </div>
+							<label for="division">School Division:</label>
+                            <div class="radio-inline">
+                              <label><input type="radio" name="optradio">Division B</label>
+                            </div>
+                            <div class="radio-inline">
+                              <label><input type="radio" name="optradio">Division C</label>
+                            </div>
+                            <div class="radio disabled">
+                            </div>
 
-                           <div>
-							<label for="Pref_Contact">Preferred Method of Contact:</label>
-							<select class="selectpicker">
-							  <option>E-mail</option>
-							  <option>Text</option>
-							</select>
-                           </div>
+                           <div class="pref_contact">
+							<label for="pref_contact">Preferred Method of Contact:</label>
+                            <div class="radio-inline">
+                              <label><input type="radio" name="optradio">E-mail</label>
+                            </div>
+                            <div class="radio-inline">
+                              <label><input type="radio" name="optradio">Text</label>
+                            </div>
+                            <div class="radio disabled">
+                            </div>
 
                            <div>
 							<label for="Scheduling">Scheduling:</label>
@@ -126,20 +113,33 @@
 
 							<h4>Mentor Specialties Requested</h4>
 							<div class="checkbox">
-							  <label><input type="checkbox" value="">Math</label>
+							  <label><input type="checkbox" value="">Life Sciences</label>
 							</div>
 							<div class="checkbox">
-							  <label><input type="checkbox" value="">Chemistry</label>
+							  <label><input type="checkbox" value="">Physical Science and Chemistry</label>
 							</div>
 							<div class="checkbox">
-							  <label><input type="checkbox" value="">Biology</label>
+							  <label><input type="checkbox" value="">Earth and Space Sciences</label>
 							</div>
 							<div class="checkbox">
-							  <label><input type="checkbox" value="">Physics</label>
+							  <label><input type="checkbox" value="">Technology and Engineering</label>
 							</div>		
 							<div class="checkbox">
-							  <label><input type="checkbox" value="">Astronomy</label>
+							  <label><input type="checkbox" value="">Inquiry and Nature of Science</label>
 							</div>		
+							<div class="checkbox">
+							  <label><input type="checkbox" value="">Team Structure</label>
+							</div>		
+							<div class="checkbox">
+							  <label><input type="checkbox" value="">Student Motivation</label>
+							</div>		
+							<div class="checkbox">
+							  <label><input type="checkbox" value="">Coaching Support and Strategy</label>
+							</div>		
+						   <div class="other">
+							  <label for="address">Other (please specify):</label>
+							  <input type="text" class="form-control" id="other">
+						   </div> 
 
                            <div>
 							<label for="mentor_spec">Virtual Mentorship:</label>
@@ -149,7 +149,16 @@
 							</select>
                            </div>
 
-							<div class="form-group">
+							<div class="tournaments">
+							  <label for="notes">Is your team planning to attend the UT-Austin Invitational Tournament on 11/19/16?:</label>
+							<select class="selectpicker">
+							  <option>Yes</option>
+							  <option>No</option>
+							</select>
+
+							</div>
+
+							<div class="notes">
 							  <label for="notes">Additional Notes:</label>
 							  <textarea class="form-control" rows="5" id="notes"></textarea>
 							</div>
