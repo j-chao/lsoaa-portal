@@ -3,7 +3,7 @@ function writeCoach(userId, coachData)
 {
 	var reference = firebase.database().ref('coaches').child(userId);
 	reference.update(coachData);
-    //writeSchoolCoach(coachData);
+    writeSchoolCoach(coachData);
 }
 
 function readCoach(userId, callback)
