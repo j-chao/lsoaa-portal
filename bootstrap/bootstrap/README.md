@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # [Start Bootstrap](http://startbootstrap.com/) - [Portfolio Item](http://startbootstrap.com/template-overviews/portfolio-item/)
 
 [Portfolio Item](http://startbootstrap.com/template-overviews/portfolio-item/) is an individual portfolio item template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
@@ -26,14 +25,3 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 ## Copyright and License
 
 Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-portoflio-item/blob/gh-pages/LICENSE) license.
-=======
-# Longhorn Science Olympiad Alumni Association Portal
-
-### Introduction
-
-This is a project skeleton that includes the following libraries:
-- Firebase
-- jQuery
-- Bootstrap
-//stuff
->>>>>>> 3af3088b2588384a1786f0c8278048d0a118186f
