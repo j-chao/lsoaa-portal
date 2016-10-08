@@ -1,8 +1,4 @@
-<<<<<<< HEAD
- // Initialize Firebase
-=======
-  // Initialize Firebase
->>>>>>> master
+
   var config = {
     apiKey: "AIzaSyAPzY1V4xLbdGogR5R-ns1K9Ex2tmuOydg",
     authDomain: "hackathon-project-c40ea.firebaseapp.com",
@@ -10,9 +6,5 @@
     storageBucket: "hackathon-project-c40ea.appspot.com",
     messagingSenderId: "899231033182"
   };
-<<<<<<< HEAD
-  firebase.initializeApp(config);
 
-=======
   firebase.initializeApp(config);
->>>>>>> master
