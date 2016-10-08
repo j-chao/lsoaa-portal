@@ -100,21 +100,29 @@
                             <div class="radio-inline">
                               <label><input type="radio" name="contact" value="text">Text</label>
                             </div>
-                            <div class="radio disabled">
-                            </div>
 <hr>
 
-                           <div>
-							<label for="Num_Mentor">Number of Mentors:</label>
-							<select class="selectpicker">
-							  <option>1</option>
-							  <option>2</option>
-							  <option>3</option>
-							  <option>4</option>
-							</select>
+                           <div class="num_mentors">
+						        <label for="pref_contact">Number of Mentors:</label>
+                                    <div class="radio-inline">
+                                <label><input type="radio" name="num_mentors" value='1'>1</label>
+                            </div>
+                            <div class="radio-inline">
+                              <label><input type="radio" name="num_mentors"
+                                  value='2'>2</label>
+                            </div>
+                            <div class="radio-inline">
+                              <label><input type="radio" name="num_mentors"
+                                  value='3'>3</label>
+                            </div>
+                            <div class="radio-inline">
+                              <label><input type="radio" name="num_mentors"
+                                  value='4'>4</label>
+                            </div>
                            </div>
 
 <hr>
+<div id="container">
 							<h4>Mentor Specialties Requested</h4>
 							<div class="checkbox">
 							  <label><input type="checkbox" value="life">Life Sciences</label>
@@ -144,14 +152,19 @@
 							  <label for="address">Other (please specify):</label>
 							  <input type="text" class="form-control" id="other">
 						   </div> 
+						   </div> 
 
 <hr>
                            <div>
 							<label for="mentor_spec">Virtual Mentorship:</label>
-							<select class="selectpicker">
-							  <option>Yes</option>
-							  <option>No</option>
-							</select>
+                                <div class="radio-inline">
+                                  <label><input type="radio" name="VM"
+                                      value='y'>Yes</label>
+                                </div>
+                                <div class="radio-inline">
+                                  <label><input type="radio" name="VM"
+                                      value='n'>No</label>
+                                </div>
                            </div>
 
                            <hr>
@@ -163,23 +176,6 @@
                                   id="scheduling"></textarea>
 						   </div>
 
-<hr>
-							<div class="UT_reg_11.19.16">
-							  <label for="UT_reg_11.19.16">
-                    Is your team planning to attend the UT-Austin Invitational Tournament on 11/19/16?:</label>
-							<select class="selectpicker">
-							  <option>Yes</option>
-							  <option>No</option>
-							</select>
-                            </div>
-                            <div class="UT_reg_3.25.17">
-							  <label for="UT_reg_3.25.17">
-Is your team planning to attend the UT-Austin Regional Tournament on 3/25/17?</label> 
-							<select class="selectpicker">
-							  <option>Yes</option>
-							  <option>No</option>
-							</select>
-							</div>
 <hr>
 							<div class="notes">
 							  <label for="notes">Additional Notes:</label>
