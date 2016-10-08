@@ -50,4 +50,4 @@ function readSchoolMentors(school_name,callback){
 
 
 
-$(document).ready(blah);
+//$(document).ready(blah);
